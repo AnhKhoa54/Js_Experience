@@ -52,3 +52,8 @@ Hiểu nôm na là những tham số còn lại
     }
     const value = handle({ a: 1, b: 2, c: 3, d: 4, e: 5 })
     console.log(value) // { c: 3, d: 4, e: 5 }
+
+# Tổng kết
+- Destructuring dùng để tạo ra một new variable từ array item hoặc object property
+- Spread Syntax dùng để unpack terables của một array, object hay function call
+- Rest Parameter dùng để tạo ra một 1 array/ object từ 1 số lượng giá trị không xác định 
